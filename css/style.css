@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background-color: rgb(227, 242, 247);
+}
+
+
+button{
+	background-color: transparent;
+	border: none;
+	font-size: 1.5rem;
+}
+
+.boton {
+	display: flex;
+	justify-content: center;
+	transition: all 300ms;
+}
+.boton :hover{
+	transform: scale(1.2);
+}
+.container {
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	width: 100%;
+	position: fixed;
+}
+
+#home {
+	background-color: rgb(166 217 234);
+}
+#section1{
+	margin: 0px 0px;
+	padding: 0px 0px;
+	
+}
+
+#avatar {
+	border-radius: 150px;
+}
+#exp{
+	margin-top: 10px;
+}
+h2{
+	font-weight: bold;
+}
+#menu {
+	display: flex;
+	justify-content: space-evenly;
+	height: 80px;
+	align-items: center;
+	font-size: 1.3rem;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+#info {
+	height: 280px;
+	padding-top: 30px;
+	max-width: 100%;
+	text-align: center;
+	padding-top: 90px;	
+}
+#perfil {
+	color: rgb(227, 242, 247);
+	font-weight: bold;
+	margin-top: 15px;
+}
+#section1{
+	background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("../images/backwork.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+}
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000008;
+}
+
+a:hover {
+	color: #000008a3;
+}
+
+
+
+#nombre {
+	font-size: 2.3rem;
+}
+.container2 {
+	margin: 0px;
+	padding: 0px;
+}
+#ig{
+	padding-right: 20px;
+}
+#facebook{
+	padding-right: 20px;
+}
+#linkedin{
+	padding-right: 20px;
+}
+#iconemail{
+	padding-right: 2px;
+}
+
+footer {
+	font-size: x-large;
+	font-weight: bold;
+	padding-left: 30px;
+	background-color: rgb(166 217 234);
+}
+form{
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	height: 50px;
+}
+#contact{
+	background-color: white;
+	border-radius: 10px;
+	font-size: large;
+}
+#contact:hover{
+	background-color: lightblue;
+}
+@media screen and (min-width:360px) and (max-width:768px) {
+	#menu{
+		display: flex;
+		justify-content: space-evenly;
+		height: 80px;
+		align-items: center;
+		font-size: 1rem;
+		margin-bottom: 0px;
+		padding-left: 0px;
+	}
+}
+@media screen and (max-width:412px){
+	#facebook{
+		padding-right: 50px;
+	}
+}
